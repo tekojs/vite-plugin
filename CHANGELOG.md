@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/tekojs/vite-plugin/compare/v1.0.2...v1.0.3) (2026-04-03)
+
+
+### Bug Fixes
+
+* **npm:** atendicando para subir uma nva versao ([3c1616d](https://github.com/tekojs/vite-plugin/commit/3c1616da471d84b4dac79650fd61ed45f221e4d7))
+
 ## [1.0.2](https://github.com/tekojs/vite-plugin/compare/v1.0.1...v1.0.2) (2026-04-03)
 
 
