@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/tekojs/vite-plugin/compare/v1.0.1...v1.0.2) (2026-04-03)
+
+
+### Bug Fixes
+
+* **ci:** erro em local de deploy para tekojs ([cbb394b](https://github.com/tekojs/vite-plugin/commit/cbb394b1e8fc9e368961ececf133537bd2f5dae2))
+
 ## [1.0.1](https://github.com/tekojs/vite-plugin/compare/v1.0.0...v1.0.1) (2026-04-03)
 
 
