@@ -19,7 +19,8 @@
     "typecheck": "tsc --noEmit",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-    "commit": "cz"
+    "commit": "cz",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [
     "teko",
