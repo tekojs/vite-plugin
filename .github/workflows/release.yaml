@@ -18,7 +18,7 @@ jobs:
         id: release
         with:
           release-type: node
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CODE_AI_PAT_TOKEN }}
       - name: Install dependencies
         run: npm ci
       - name: Build Release Artifact
@@ -29,5 +29,5 @@ jobs:
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CODE_AI_PAT_TOKEN }}
         run: gh release upload ${{ steps.release.outputs.tag_name }} artifact/*.tgz
