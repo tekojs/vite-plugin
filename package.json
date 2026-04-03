@@ -14,6 +14,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tekojs/vite-plugin.git"
+  },
+  "homepage": "https://github.com/tekojs/vite-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/tekojs/vite-plugin/issues"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
