@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/tekojs/vite-plugin/compare/v1.0.0...v1.0.1) (2026-04-03)
+
+
+### Bug Fixes
+
+* **ts:** erro no root dir do ts ([4e64995](https://github.com/tekojs/vite-plugin/commit/4e649956bd170960885b2f99b577a44046ae2253))
+
 ## 1.0.0 (2026-04-03)
 
 
