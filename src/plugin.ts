@@ -10,6 +10,7 @@ export default function teko(_options: TekoVitePluginOptions = {}) {
       return {
         appType: 'custom'
       };
-    }
+    },
+    options: _options
   };
 }
