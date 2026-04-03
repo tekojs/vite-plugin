@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/tekojs/vite-plugin/compare/v1.0.3...v1.0.4) (2026-04-03)
+
+
+### Bug Fixes
+
+* **package:** add repository em package jsqon ([8304936](https://github.com/tekojs/vite-plugin/commit/8304936319fa990ede48e3d36b415a075fd28d58))
+
 ## [1.0.3](https://github.com/tekojs/vite-plugin/compare/v1.0.2...v1.0.3) (2026-04-03)
 
 
