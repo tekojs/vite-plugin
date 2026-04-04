@@ -1,6 +1,6 @@
 {
   "name": "@tekojs/vite-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vite integration for Teko assets and client bundles",
   "type": "module",
   "main": "./dist/index.js",
