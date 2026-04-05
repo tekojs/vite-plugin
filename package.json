@@ -83,7 +83,6 @@
     "prettier": "^3.5.2",
     "qs": "^6.15.0",
     "ts-node-maintained": "^10.9.6",
-    "tsc": "^2.0.4",
     "tsup": "^8.5.1",
     "typescript": "^6.0.2"
   },
