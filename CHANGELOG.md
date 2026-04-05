@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/tekojs/vite-plugin/compare/v1.1.0...v1.2.0) (2026-04-05)
+
+
+### Features
+
+* **tests:** configurando testes ([cc8204f](https://github.com/tekojs/vite-plugin/commit/cc8204fddddb8ccf53518c40f39531809cb1aba2))
+* **tsc:** configurando tsc para build ([569301c](https://github.com/tekojs/vite-plugin/commit/569301c6553067c0b8210fe1ec1a33a4035584ef))
+
 ## [1.1.0](https://github.com/tekojs/vite-plugin/compare/v1.0.5...v1.1.0) (2026-04-05)
 
 
