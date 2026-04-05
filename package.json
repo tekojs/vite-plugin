@@ -8,14 +8,19 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "./types": "./dist/src/types.js"
+      "import": "./dist/index.js"
     }
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "files": [
     "dist",
     "!dist/bin",
-    "!dist/tests"
+    "!dist/tests",
+    "!dist/**/*.test.*",
+    "dist/**/*.d.ts",
+    "dist/**/*.js"
   ],
   "repository": {
     "type": "git",
@@ -39,7 +44,8 @@
     "prepublishOnly": "npm run build",
     "quick:test": "node --import=ts-node-maintained/register/esm --enable-source-maps bin/test.ts",
     "prepare": "husky",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "commit": "cz"
   },
   "keywords": [
     "teko",
@@ -47,6 +53,7 @@
     "templates",
     "frontend"
   ],
+  "author": "Jefte Costa <jefteamorim@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -76,8 +83,21 @@
     "prettier": "^3.5.2",
     "qs": "^6.15.0",
     "ts-node-maintained": "^10.9.6",
+    "tsc": "^2.0.4",
     "tsup": "^8.5.1",
     "typescript": "^6.0.2"
+  },
+  "tsup": {
+    "entry": [
+      "./index.ts",
+      "./src/types.ts"
+    ],
+    "outDir": "./dist",
+    "clean": true,
+    "format": "esm",
+    "dts": false,
+    "sourcemap": false,
+    "target": "esnext"
   },
   "config": {
     "commitizen": {
