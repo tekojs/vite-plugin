@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/tekojs/vite-plugin/compare/v1.0.5...v1.1.0) (2026-04-05)
+
+
+### Features
+
+* **teste:** inserinda teste no projeto ([8592658](https://github.com/tekojs/vite-plugin/commit/85926584acb25c2e3dcdfdc365daebfc4b828636))
+* **test:** modelo de teste ([08703ec](https://github.com/tekojs/vite-plugin/commit/08703ece9c84517d86a2bb8738b63a22dfc0e617))
+
 ## [1.0.5](https://github.com/tekojs/vite-plugin/compare/v1.0.4...v1.0.5) (2026-04-04)
 
 
