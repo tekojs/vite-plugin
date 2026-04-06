@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/tekojs/vite-plugin/compare/v1.2.0...v1.3.0) (2026-04-06)
+
+
+### Features
+
+* **plugin:** atualizando plugin para acetar assets ([4cf9614](https://github.com/tekojs/vite-plugin/commit/4cf9614471af5783727d8d83135ca6159802bedd))
+
+
+### Bug Fixes
+
+* **lock:** resolvendo erro do package lock ([a64b6ad](https://github.com/tekojs/vite-plugin/commit/a64b6ad015e7674e9901b9c276141cf4421e7f0e))
+
 ## [1.2.0](https://github.com/tekojs/vite-plugin/compare/v1.1.0...v1.2.0) (2026-04-05)
 
 
