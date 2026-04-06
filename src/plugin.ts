@@ -1,16 +1,22 @@
-export interface TekoVitePluginOptions {
-  entry?: string;
-}
+import type { Plugin } from 'vite'
+import type { TekoVitePluginOptions } from './types.js'
 
-export default function teko(_options: TekoVitePluginOptions = {}) {
+export default function teko(options: TekoVitePluginOptions = {}): Plugin {
   return {
     name: 'teko-vite-plugin',
     enforce: 'pre',
     config() {
       return {
-        appType: 'custom'
-      };
+        appType: 'custom',
+        build: {
+          manifest: true,
+        },
+      }
     },
-    options: _options
-  };
+    configResolved(config) {
+      if (options.mode && options.mode !== config.mode) {
+        // noop por enquanto
+      }
+    },
+  }
 }
